@@ -1,5 +1,15 @@
 <template>
   <div>
+    <h1>code is commented</h1>
+  </div>
+</template>
+
+<script>
+
+</script>
+
+<!-- <template>
+  <div>
     <el-dialog v-model="props.dialogVisible" :show-close="false" :before-close="handleClose" align-center
       class="view_receipt_modal">
       <template #header>
@@ -395,4 +405,4 @@ onMounted(() => {
   max-width: 100%;
   margin: 30px 0;
 }
-</style>
+</style> -->
