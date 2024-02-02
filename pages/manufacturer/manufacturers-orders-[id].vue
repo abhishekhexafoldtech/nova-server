@@ -78,15 +78,15 @@
     </el-row>
 
     <!-- Receipt Dialog  -->
-    <OrderBillReceipt :dialogVisible="viewReceiptVisibility" @handleSendReceiptEmail="handleSendReceiptEmail"
-      @handleReceiptClose="handleReceiptClose" />
+    <!-- <OrderBillReceipt :dialogVisible="viewReceiptVisibility" @handleSendReceiptEmail="handleSendReceiptEmail"
+      @handleReceiptClose="handleReceiptClose" /> -->
   </div>
 </template>
 <script setup>
 import { ref } from "vue"
 import { useNavStore } from "@/stores/NavStore";
 const navStore = useNavStore();
-import OrderBillReceipt from "@/components/orders/OrderBillReceipt";
+// import OrderBillReceipt from "@/components/orders/OrderBillReceipt";
 import gas from "@/assets/img/card-visa.jpg";
 import { useRoute } from 'vue-router'
 

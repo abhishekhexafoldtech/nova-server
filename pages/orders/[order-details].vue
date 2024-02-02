@@ -229,8 +229,8 @@
       </el-row>
 
       <!-- Receipt Dialog  -->
-      <OrderBillReceipt :dialogVisible="viewReceiptVisibility" @handleSendReceiptEmail="handleSendReceiptEmail"
-        @handleReceiptClose="handleReceiptClose" />
+      <!-- <OrderBillReceipt :dialogVisible="viewReceiptVisibility" @handleSendReceiptEmail="handleSendReceiptEmail"
+        @handleReceiptClose="handleReceiptClose" /> -->
     </div>
   </section>
 </template>
@@ -239,7 +239,7 @@ import { ref, reactive, onMounted } from "vue";
 import { format, parseISO } from "date-fns";
 import { useNavStore } from "@/stores/NavStore";
 import { getAdminDetails } from "@/api/orders/AdminDetails.js";
-import OrderBillReceipt from "@/components/orders/OrderBillReceipt.vue";
+// import OrderBillReceipt from "@/components/orders/OrderBillReceipt.vue";
 import { useRouter } from "vue-router";
 const navStore = useNavStore();
 
