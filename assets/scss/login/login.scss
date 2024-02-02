@@ -1,0 +1,194 @@
+.login_wrap {
+  background-color: var(--grey-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 15px 0;
+
+  .login_inner {
+    width: 100%;
+
+    .el-row {
+      .el-col {
+        padding: 0 15px;
+      }
+    }
+
+    .login_left {
+      min-height: calc(100vh - 30px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .login_form {
+        background-color: var(--white);
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        max-width: 445px;
+
+        .logo {
+          width: 120px;
+          height: 55px;
+          object-fit: contain;
+          object-position: center;
+          margin-bottom: 30px;
+        }
+
+        .form_inner {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+
+          h3 {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 700;
+            margin: 0;
+            color: var(--black);
+          }
+
+          p {
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 16px;
+            color: var(--grey);
+            margin: 0;
+          }
+
+          .fieldrow {
+            position: relative;
+
+            &.text-right {
+              text-align: right;
+            }
+
+            a {
+              font-size: 16px;
+              line-height: 24px;
+              display: inline-block;
+              margin-left: auto;
+              margin-right: 0;
+              font-weight: normal;
+              color: var(--black);
+              transition: all 250ms ease-in-out;
+
+              &:hover {
+                color: var(--violet);
+              }
+            }
+          }
+
+          small {
+            font-size: 15px;
+            font-weight: normal;
+            color: #F33F22;
+            line-height: 22px;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .form_input {
+      display: block;
+      width: 100%;
+      padding: 13px 20px;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 22px;
+      color: #495057;
+      background-color: transparent;
+      border: 1px solid #E2E8F0;
+      appearance: none;
+      border-radius: 0.5rem;
+      transition: box-shadow 0.15s ease, border-color 0.15s ease;
+      outline: none !important;
+      position: relative;
+      z-index: 1;
+
+      &.password {
+        padding-right: 45px;
+      }
+    }
+
+    .form_label {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 22px;
+      color: #495057;
+      margin: 0;
+      position: absolute;
+      z-index: 0;
+      top: 13px;
+      left: 15px;
+      background-color: var(--white);
+      padding: 0px 5px;
+      transition: all 150ms ease-in-out;
+    }
+
+    .form_input:focus~.form_label,
+    .form_input.has_value~.form_label {
+      top: -11px;
+      left: 15px;
+      font-size: 13px;
+      z-index: 1;
+    }
+
+    .view_pass {
+      position: absolute;
+      top: 12px;
+      right: 20px;
+      z-index: 3;
+      cursor: pointer;
+      display: block;
+
+      svg {
+        width: 18px;
+        fill: #ADABAB;
+      }
+    }
+
+    .login_right {
+      background: linear-gradient(124deg, rgba(122, 165, 191, 0.6) -1.8%, rgba(69, 105, 135, 0.6) 105.23%);
+      border-radius: 15px;
+      overflow: hidden;
+      min-height: calc(100vh - 30px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 65px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        max-width: 655px;
+        max-height: 600px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login_wrap {
+    .login_inner {
+      .login_left {
+        .login_form {
+          padding: 40px 20px;
+        }
+      }
+
+      .login_right {
+        display: none;
+      }
+    }
+  }
+}

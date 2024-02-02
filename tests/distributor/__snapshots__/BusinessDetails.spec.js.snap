@@ -1,0 +1,95 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BusinessDetails Component > renders all input fields 1`] = `
+"<div data-v-e541af4d=\\"\\">
+  <section data-v-e541af4d=\\"\\" class=\\"edit_mang_wrap\\">
+    <div data-v-e541af4d=\\"\\" class=\\"mang_inner comp_inner\\">
+      <div data-v-e541af4d=\\"\\" class=\\"mang_title\\">
+        <h3 data-v-e541af4d=\\"\\" class=\\"mb-3\\">Business details</h3>
+        <p data-v-e541af4d=\\"\\">Enter your business details</p>
+      </div>
+      <el-row data-v-e541af4d=\\"\\" gutter=\\"50\\">
+        <el-col data-v-e541af4d=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"11\\" xl=\\"11\\">
+          <el-form data-v-e541af4d=\\"\\" label-position=\\"top\\" label-width=\\"100px\\" model=\\"[object Object]\\" rules=\\"[object Object]\\">
+            <div data-v-e541af4d=\\"\\" class=\\"comp_form_box\\">
+              <!-- Name of Business -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"Name of Business\\" prop=\\"name_of_bussiness\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"Name of business\\"></el-input>
+                </el-form-item>
+              </div><!-- Company Registration Number -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"Company Registration Number\\" prop=\\"company_registration_number\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"Company registration number\\"></el-input>
+                </el-form-item>
+              </div><!-- House No. / Street -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"House No. / Street\\" prop=\\"house_number\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"House no., Street\\"></el-input>
+                </el-form-item>
+              </div><!-- GPS Code -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"GPS Code\\" prop=\\"gps_code\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"GPS code\\"></el-input>
+                </el-form-item>
+              </div><!-- Area -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"Area\\" prop=\\"area\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"Area\\"></el-input>
+                </el-form-item>
+              </div><!-- Region -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"Region\\" prop=\\"region\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"Region\\"></el-input>
+                </el-form-item>
+              </div><!-- District -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"District\\" prop=\\"district\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"District\\"></el-input>
+                </el-form-item>
+              </div><!-- Post Code -->
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"Post Code\\" prop=\\"post_code\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"Post code\\"></el-input>
+                </el-form-item>
+              </div>
+            </div><!-- GPS address -->
+            <div data-v-e541af4d=\\"\\" class=\\"comp_form_box\\">
+              <h5 data-v-e541af4d=\\"\\" class=\\"cf_title\\">Enter your location’s GPS address</h5>
+              <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+                <el-form-item data-v-e541af4d=\\"\\" label=\\"GPS Address\\" prop=\\"gps_address\\">
+                  <el-input data-v-e541af4d=\\"\\" modelvalue=\\"\\" placeholder=\\"GPS address\\"></el-input>
+                </el-form-item>
+              </div><img data-v-e541af4d=\\"\\" class=\\"gh_post\\" src=\\"/assets/svg/ghanapost.svg\\" alt=\\"GhanaPost\\">
+            </div>
+          </el-form>
+        </el-col>
+        <el-col data-v-e541af4d=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"8\\" xl=\\"8\\">
+          <div data-v-e541af4d=\\"\\" class=\\"comp_form_box add_dist_up w355\\">
+            <!-- Certificate of Registration -->
+            <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+              <p data-v-e541af4d=\\"\\">Certificate of Registration</p>
+              <single-file-upload-stub data-v-e541af4d=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"CertificateOfregistration\\" value=\\"[object Object]\\"></single-file-upload-stub>
+            </div>
+            <!--v-if-->
+          </div><!-- Certificate of Commencement -->
+          <div data-v-e541af4d=\\"\\" class=\\"comp_form_box add_dist_up w355\\">
+            <div data-v-e541af4d=\\"\\" class=\\"fieldrow\\">
+              <p data-v-e541af4d=\\"\\">Certificate of Commencement</p>
+              <single-file-upload-stub data-v-e541af4d=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"CertificateOfCommencement\\" value=\\"[object Object]\\"></single-file-upload-stub>
+            </div>
+            <!--v-if-->
+          </div>
+        </el-col>
+      </el-row><!-- cancel and save button -->
+      <div data-v-e541af4d=\\"\\" class=\\"comp_footer\\">
+        <nuxt-link data-v-e541af4d=\\"\\" class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link><button data-v-e541af4d=\\"\\" class=\\"btn btn-primary\\">Save</button>
+      </div>
+    </div>
+  </section>
+  <div data-v-e541af4d=\\"\\" class=\\"row\\">
+    <!-- Dialog box code -->
+    <success-dialog-stub data-v-e541af4d=\\"\\" leftbuttonname=\\"Cancel\\" rightbuttonname=\\"Send email\\" dialogtitle=\\"Admin added successfully\\" dialogimage=\\"/assets/svg/admin_mail.svg\\" dialogtext=\\"Send temporary logic credentials to admin\\" dialogvisible=\\"false\\"></success-dialog-stub>
+  </div>
+</div>"
+`;

@@ -15,9 +15,6 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -33,9 +30,6 @@ pnpm run dev
 
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -51,9 +45,6 @@ pnpm run build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -67,9 +58,24 @@ pnpm run preview
 
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### Guidelines for devloper
+
+* All VUE file names should be in PascalCase e.g. EditProfile.vue
+
+* js file ALWAYS start with small letter e.g. my.profile.js
+
+* Component names ALWAYS PascalCase e.g. components/Card/DashboardCard.vue
+
+* folder name always use '-', e.g. edit-profile
+
+* Uri pattern will be like my-profile, dashboard
+
+* variable should be camel case, e.g. $myProfile
+
+* Use proper indentation for each file
+
+* Write proper comments ALWAYS

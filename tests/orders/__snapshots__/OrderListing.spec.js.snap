@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`OrderListing > checked table is rendered 1`] = `
+"<section>
+  <!-- Display an empty state if there are no orders -->
+  <!--v-if-->
+  <!-- Display the orders table if data is present -->
+  <div class=\\"container-area\\">
+    <h4 class=\\"page_heading mb-4\\">Orders</h4>
+    <div class=\\"table-area\\">
+      <table-stub tableconfig=\\"[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]\\" tabledata=\\"\\" tablequery=\\"[object Object]\\" tableheading=\\"\\" headingrowreverse=\\"true\\" tableloadingstatus=\\"false\\" tablesubheading=\\"\\" tablesearchvisibility=\\"true\\" actionvisibility=\\"false\\" viewbuttonvisibility=\\"false\\" editbuttonvisibility=\\"true\\" deletebuttonvisibility=\\"true\\" moreactionsvisibility=\\"false\\" resetpasswordvisibility=\\"true\\" approverequestsvisibility=\\"false\\" declinerequestsvisibility=\\"false\\" viewonboardingformvisibility=\\"false\\" roleandpermissionvisibility=\\"true\\" tablecheckboxvisibility=\\"true\\" export=\\"true\\" refresh=\\"true\\" filter=\\"true\\" filterdata=\\"[object Object],[object Object],[object Object],[object Object]\\" downloadvisibility=\\"false\\" downloadlinkcontent=\\"\\" style=\\"border-radius: 20px;\\" addbuttonvisibility=\\"false\\"></table-stub>
+    </div>
+  </div>
+</section>"
+`;

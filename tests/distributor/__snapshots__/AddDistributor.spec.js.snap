@@ -1,0 +1,125 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddNewDistributor > renders all input fields 1`] = `
+"<section data-v-ff0b6a8d=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-ff0b6a8d=\\"\\" class=\\"mang_inner add_admin\\">
+    <div data-v-ff0b6a8d=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-ff0b6a8d=\\"\\">Add distributor</h3>
+      <p data-v-ff0b6a8d=\\"\\">Enter your details</p>
+    </div><!-- form -->
+    <el-form data-v-ff0b6a8d=\\"\\" model=\\"[object Object]\\" rules=\\"[object Object]\\" label-position=\\"top\\" label-width=\\"100px\\" size=\\"large\\">
+      <el-row data-v-ff0b6a8d=\\"\\" gutter=\\"25\\">
+        <!-- First Name -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"First Name\\" prop=\\"first_name\\">
+              <el-input data-v-ff0b6a8d=\\"\\" placeholder=\\"First name\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Last Name -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Last Name\\" prop=\\"last_name\\">
+              <el-input data-v-ff0b6a8d=\\"\\" placeholder=\\"Last name\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Phone Number -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Phone Number\\" prop=\\"phone\\">
+              <el-input data-v-ff0b6a8d=\\"\\" type=\\"number\\" placeholder=\\"Phone number\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Email -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Email\\" prop=\\"email\\">
+              <el-input data-v-ff0b6a8d=\\"\\" type=\\"email\\" placeholder=\\"Email\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Role -->
+        <!-- <el-col :xs=\\"24\\" :sm=\\"12\\" :md=\\"12\\" :lg=\\"12\\" :xl=\\"12\\">
+            <div class=\\"fieldrow\\">
+              <el-form-item v-if=\\"newDistributorForm\\" label=\\"Role\\" prop=\\"role\\">
+                <el-select
+                  class=\\"form_input\\"
+                  placeholder=\\"please select role\\"
+                  v-model=\\"newDistributorForm.role\\"
+                >
+                  <el-option label=\\"Admin role\\" value=\\"admin_role\\" />
+                  <el-option label=\\"Super Admin Role\\" value=\\"super_admin\\" />
+                </el-select>
+              </el-form-item>
+            </div>
+          </el-col> -->
+      </el-row>
+    </el-form>
+    <div data-v-ff0b6a8d=\\"\\" class=\\"perm_footer\\">
+      <el-button data-v-ff0b6a8d=\\"\\" class=\\"btn btn-default\\">Cancel</el-button>
+      <el-button data-v-ff0b6a8d=\\"\\" class=\\"btn btn-primary\\" type=\\"primary\\">Continue</el-button>
+    </div>
+  </div>
+</section>"
+`;
+
+exports[`AddNewDistributor > renders the Continue button 1`] = `
+"<section data-v-ff0b6a8d=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-ff0b6a8d=\\"\\" class=\\"mang_inner add_admin\\">
+    <div data-v-ff0b6a8d=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-ff0b6a8d=\\"\\">Add distributor</h3>
+      <p data-v-ff0b6a8d=\\"\\">Enter your details</p>
+    </div><!-- form -->
+    <el-form data-v-ff0b6a8d=\\"\\" model=\\"[object Object]\\" rules=\\"[object Object]\\" label-position=\\"top\\" label-width=\\"100px\\" size=\\"large\\">
+      <el-row data-v-ff0b6a8d=\\"\\" gutter=\\"25\\">
+        <!-- First Name -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"First Name\\" prop=\\"first_name\\">
+              <el-input data-v-ff0b6a8d=\\"\\" placeholder=\\"First name\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Last Name -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Last Name\\" prop=\\"last_name\\">
+              <el-input data-v-ff0b6a8d=\\"\\" placeholder=\\"Last name\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Phone Number -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Phone Number\\" prop=\\"phone\\">
+              <el-input data-v-ff0b6a8d=\\"\\" type=\\"number\\" placeholder=\\"Phone number\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Email -->
+        <el-col data-v-ff0b6a8d=\\"\\" xs=\\"24\\" sm=\\"12\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+          <div data-v-ff0b6a8d=\\"\\" class=\\"fieldrow\\">
+            <el-form-item data-v-ff0b6a8d=\\"\\" label=\\"Email\\" prop=\\"email\\">
+              <el-input data-v-ff0b6a8d=\\"\\" type=\\"email\\" placeholder=\\"Email\\" modelvalue=\\"\\"></el-input>
+            </el-form-item>
+          </div>
+        </el-col><!-- Role -->
+        <!-- <el-col :xs=\\"24\\" :sm=\\"12\\" :md=\\"12\\" :lg=\\"12\\" :xl=\\"12\\">
+            <div class=\\"fieldrow\\">
+              <el-form-item v-if=\\"newDistributorForm\\" label=\\"Role\\" prop=\\"role\\">
+                <el-select
+                  class=\\"form_input\\"
+                  placeholder=\\"please select role\\"
+                  v-model=\\"newDistributorForm.role\\"
+                >
+                  <el-option label=\\"Admin role\\" value=\\"admin_role\\" />
+                  <el-option label=\\"Super Admin Role\\" value=\\"super_admin\\" />
+                </el-select>
+              </el-form-item>
+            </div>
+          </el-col> -->
+      </el-row>
+    </el-form>
+    <div data-v-ff0b6a8d=\\"\\" class=\\"perm_footer\\">
+      <el-button data-v-ff0b6a8d=\\"\\" class=\\"btn btn-default\\">Cancel</el-button>
+      <el-button data-v-ff0b6a8d=\\"\\" class=\\"btn btn-primary\\" type=\\"primary\\">Continue</el-button>
+    </div>
+  </div>
+</section>"
+`;

@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NationalId Component > renders the Save and cancel button 1`] = `
+"<div>
+  <section class=\\"edit_mang_wrap\\">
+    <div class=\\"mang_inner comp_inner\\">
+      <div class=\\"mang_title\\">
+        <h3>National ID details</h3>
+      </div>
+      <el-row>
+        <el-col xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"6\\" xl=\\"6\\">
+          <div class=\\"comp_form_box add_dist_up w355\\">
+            <div class=\\"fieldrow\\">
+              <p class=\\"mb-3\\">Select ID type</p>
+              <el-radio-group modelvalue=\\"1\\">
+                <el-radio label=\\"1\\">Ghana card</el-radio>
+                <el-radio label=\\"2\\">Voter's ID</el-radio>
+              </el-radio-group>
+              <single-file-upload-stub iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"national_id\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              <!--v-if-->
+            </div>
+          </div>
+          <p class=\\"text-warning\\"> please upload national id details. </p>
+        </el-col>
+      </el-row>
+      <div class=\\"comp_footer float-start\\">
+        <nuxt-link class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link><button class=\\"btn btn-primary\\">Save</button>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- <DialogStatus
+    :dialogVisible=\\"successDialog.status\\"
+    :dialogTitle=\\"successDialog.title\\"
+    :dialogImage=\\"successDialog.image\\"
+    :dialogText=\\"successDialog.discription\\"
+    :dialogTextSize=\\"successDialog.discriptionSize\\"
+    :dialogTitleSize=\\"successDialog.titleSize\\"
+    :leftButtonName=\\"successDialog.leftButtonName\\"
+    :rightButtonName=\\"successDialog.rightButtonName\\"
+    @handleLeftButton=\\"handleSendEmail\\"
+    @handleRightButton=\\"handleContinueOnboarding\\"
+    @dialogVisible=\\"handleCloseDialog\\"
+  /> -->
+<!-- with Email -->
+<!-- <DialogStatus
+    :dialogVisible=\\"emailDailog.status\\"
+    :dialogTitle=\\"emailDailog.title\\"
+    :dialogImage=\\"emailDailog.image\\"
+    :dialogText=\\"emailDailog.discription\\"
+    :dialogTextSize=\\"emailDailog.discriptionSize\\"
+    :dialogTitleSize=\\"emailDailog.titleSize\\"
+    :leftButtonName=\\"emailDailog.leftButtonName\\"
+    :rightButtonName=\\"emailDailog.rightButtonName\\"
+    @handleLeftButton=\\"handleCloseEmailDialog\\"
+    @handleRightButton=\\"handleSendEmailWithCredentials\\"
+    @dialogVisible=\\"handleCloseEmailDialog\\"
+  /> -->"
+`;
+
+exports[`NationalId Component > renders the Save button 1`] = `
+"<div>
+  <section class=\\"edit_mang_wrap\\">
+    <div class=\\"mang_inner comp_inner\\">
+      <div class=\\"mang_title\\">
+        <h3>National ID details</h3>
+      </div>
+      <el-row>
+        <el-col xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"6\\" xl=\\"6\\">
+          <div class=\\"comp_form_box add_dist_up w355\\">
+            <div class=\\"fieldrow\\">
+              <p class=\\"mb-3\\">Select ID type</p>
+              <el-radio-group modelvalue=\\"1\\">
+                <el-radio label=\\"1\\">Ghana card</el-radio>
+                <el-radio label=\\"2\\">Voter's ID</el-radio>
+              </el-radio-group>
+              <single-file-upload-stub iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"national_id\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              <!--v-if-->
+            </div>
+          </div>
+          <!--v-if-->
+        </el-col>
+      </el-row>
+      <div class=\\"comp_footer float-start\\">
+        <nuxt-link class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link><button class=\\"btn btn-primary\\">Save</button>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- <DialogStatus
+    :dialogVisible=\\"successDialog.status\\"
+    :dialogTitle=\\"successDialog.title\\"
+    :dialogImage=\\"successDialog.image\\"
+    :dialogText=\\"successDialog.discription\\"
+    :dialogTextSize=\\"successDialog.discriptionSize\\"
+    :dialogTitleSize=\\"successDialog.titleSize\\"
+    :leftButtonName=\\"successDialog.leftButtonName\\"
+    :rightButtonName=\\"successDialog.rightButtonName\\"
+    @handleLeftButton=\\"handleSendEmail\\"
+    @handleRightButton=\\"handleContinueOnboarding\\"
+    @dialogVisible=\\"handleCloseDialog\\"
+  /> -->
+<!-- with Email -->
+<!-- <DialogStatus
+    :dialogVisible=\\"emailDailog.status\\"
+    :dialogTitle=\\"emailDailog.title\\"
+    :dialogImage=\\"emailDailog.image\\"
+    :dialogText=\\"emailDailog.discription\\"
+    :dialogTextSize=\\"emailDailog.discriptionSize\\"
+    :dialogTitleSize=\\"emailDailog.titleSize\\"
+    :leftButtonName=\\"emailDailog.leftButtonName\\"
+    :rightButtonName=\\"emailDailog.rightButtonName\\"
+    @handleLeftButton=\\"handleCloseEmailDialog\\"
+    @handleRightButton=\\"handleSendEmailWithCredentials\\"
+    @dialogVisible=\\"handleCloseEmailDialog\\"
+  /> -->"
+`;

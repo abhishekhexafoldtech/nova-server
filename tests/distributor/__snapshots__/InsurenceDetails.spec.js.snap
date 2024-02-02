@@ -1,0 +1,229 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InsuranceDetails Component > renders all input fields 1`] = `
+"<section data-v-3c2eb23c=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-3c2eb23c=\\"\\" class=\\"mang_inner comp_inner\\">
+    <div data-v-3c2eb23c=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-3c2eb23c=\\"\\" class=\\"mb-3\\">Insurance details</h3>
+      <p data-v-3c2eb23c=\\"\\">Enter your business insurance details</p>
+    </div>
+    <div data-v-3c2eb23c=\\"\\" class=\\"w854\\">
+      <el-form data-v-3c2eb23c=\\"\\" label-position=\\"top\\" label-width=\\"100px\\" model=\\"[object Object]\\" rules=\\"[object Object]\\">
+        <el-row data-v-3c2eb23c=\\"\\" gutter=\\"50\\">
+          <!--Name of Insurance Company  -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Name of Insurance Company\\" prop=\\"name_of_insurence_company\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Name of insurance company\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- Policy Number -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Policy Number\\" prop=\\"policy_number\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Policy number\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- insurance card -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"comp_form_box phase3_upload\\">
+              <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+                <p data-v-3c2eb23c=\\"\\" class=\\"frm_label\\">Insurance Card</p>
+                <single-file-upload-stub data-v-3c2eb23c=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"insurance_card\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              </div>
+              <!--v-if-->
+            </div>
+          </el-col><!-- Expiry of insurance -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <!-- <el-form-item label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                  <el-input type=\\"date\\" v-model=\\"formData.expiry_of_insurence\\" placeholder=\\"Expiry of insurance\\" />
+                </el-form-item> -->
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                <el-date-picker data-v-3c2eb23c=\\"\\" value-format=\\"YYYY-MM-DD\\" modelvalue=\\"\\" type=\\"date\\" placeholder=\\"Expiry of insurance\\" size=\\"default\\"></el-date-picker>
+              </el-form-item>
+            </div>
+          </el-col>
+        </el-row>
+      </el-form>
+      <div data-v-3c2eb23c=\\"\\" class=\\"comp_footer\\">
+        <nuxt-link data-v-3c2eb23c=\\"\\" class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link>
+        <el-button data-v-3c2eb23c=\\"\\" class=\\"btn btn-primary\\">Save</el-button>
+      </div>
+    </div>
+  </div>
+</section>
+<dialog-status-stub data-v-3c2eb23c=\\"\\" dialogtitle=\\"Have a depot?\\" dialogimage=\\"/assets/svg/insurence.svg\\" dialogtext=\\"Do you want to assign zone or
+ do you want to onboard depot\\" leftbuttonname=\\"Assign depot\\" rightbuttonname=\\"Onboard depot\\" dialogvisible=\\"false\\" dialogtextsize=\\"17\\" dialogtitlesize=\\"22\\"></dialog-status-stub>"
+`;
+
+exports[`InsuranceDetails Component > renders insurance card component 1`] = `
+"<section data-v-3c2eb23c=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-3c2eb23c=\\"\\" class=\\"mang_inner comp_inner\\">
+    <div data-v-3c2eb23c=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-3c2eb23c=\\"\\" class=\\"mb-3\\">Insurance details</h3>
+      <p data-v-3c2eb23c=\\"\\">Enter your business insurance details</p>
+    </div>
+    <div data-v-3c2eb23c=\\"\\" class=\\"w854\\">
+      <el-form data-v-3c2eb23c=\\"\\" label-position=\\"top\\" label-width=\\"100px\\" model=\\"[object Object]\\" rules=\\"[object Object]\\">
+        <el-row data-v-3c2eb23c=\\"\\" gutter=\\"50\\">
+          <!--Name of Insurance Company  -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Name of Insurance Company\\" prop=\\"name_of_insurence_company\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Name of insurance company\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- Policy Number -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Policy Number\\" prop=\\"policy_number\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Policy number\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- insurance card -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"comp_form_box phase3_upload\\">
+              <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+                <p data-v-3c2eb23c=\\"\\" class=\\"frm_label\\">Insurance Card</p>
+                <single-file-upload-stub data-v-3c2eb23c=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"insurance_card\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              </div>
+              <!--v-if-->
+            </div>
+          </el-col><!-- Expiry of insurance -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <!-- <el-form-item label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                  <el-input type=\\"date\\" v-model=\\"formData.expiry_of_insurence\\" placeholder=\\"Expiry of insurance\\" />
+                </el-form-item> -->
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                <el-date-picker data-v-3c2eb23c=\\"\\" value-format=\\"YYYY-MM-DD\\" modelvalue=\\"\\" type=\\"date\\" placeholder=\\"Expiry of insurance\\" size=\\"default\\"></el-date-picker>
+              </el-form-item>
+            </div>
+          </el-col>
+        </el-row>
+      </el-form>
+      <div data-v-3c2eb23c=\\"\\" class=\\"comp_footer\\">
+        <nuxt-link data-v-3c2eb23c=\\"\\" class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link>
+        <el-button data-v-3c2eb23c=\\"\\" class=\\"btn btn-primary\\">Save</el-button>
+      </div>
+    </div>
+  </div>
+</section>
+<dialog-status-stub data-v-3c2eb23c=\\"\\" dialogtitle=\\"Have a depot?\\" dialogimage=\\"/assets/svg/insurence.svg\\" dialogtext=\\"Do you want to assign zone or
+ do you want to onboard depot\\" leftbuttonname=\\"Assign depot\\" rightbuttonname=\\"Onboard depot\\" dialogvisible=\\"false\\" dialogtextsize=\\"17\\" dialogtitlesize=\\"22\\"></dialog-status-stub>"
+`;
+
+exports[`InsuranceDetails Component > renders the Save button 1`] = `
+"<section data-v-3c2eb23c=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-3c2eb23c=\\"\\" class=\\"mang_inner comp_inner\\">
+    <div data-v-3c2eb23c=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-3c2eb23c=\\"\\" class=\\"mb-3\\">Insurance details</h3>
+      <p data-v-3c2eb23c=\\"\\">Enter your business insurance details</p>
+    </div>
+    <div data-v-3c2eb23c=\\"\\" class=\\"w854\\">
+      <el-form data-v-3c2eb23c=\\"\\" label-position=\\"top\\" label-width=\\"100px\\" model=\\"[object Object]\\" rules=\\"[object Object]\\">
+        <el-row data-v-3c2eb23c=\\"\\" gutter=\\"50\\">
+          <!--Name of Insurance Company  -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Name of Insurance Company\\" prop=\\"name_of_insurence_company\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Name of insurance company\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- Policy Number -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Policy Number\\" prop=\\"policy_number\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Policy number\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- insurance card -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"comp_form_box phase3_upload\\">
+              <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+                <p data-v-3c2eb23c=\\"\\" class=\\"frm_label\\">Insurance Card</p>
+                <single-file-upload-stub data-v-3c2eb23c=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"insurance_card\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              </div>
+              <!--v-if-->
+            </div>
+          </el-col><!-- Expiry of insurance -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <!-- <el-form-item label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                  <el-input type=\\"date\\" v-model=\\"formData.expiry_of_insurence\\" placeholder=\\"Expiry of insurance\\" />
+                </el-form-item> -->
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                <el-date-picker data-v-3c2eb23c=\\"\\" value-format=\\"YYYY-MM-DD\\" modelvalue=\\"\\" type=\\"date\\" placeholder=\\"Expiry of insurance\\" size=\\"default\\"></el-date-picker>
+              </el-form-item>
+            </div>
+          </el-col>
+        </el-row>
+      </el-form>
+      <div data-v-3c2eb23c=\\"\\" class=\\"comp_footer\\">
+        <nuxt-link data-v-3c2eb23c=\\"\\" class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link>
+        <el-button data-v-3c2eb23c=\\"\\" class=\\"btn btn-primary\\">Save</el-button>
+      </div>
+    </div>
+  </div>
+</section>
+<dialog-status-stub data-v-3c2eb23c=\\"\\" dialogtitle=\\"Have a depot?\\" dialogimage=\\"/assets/svg/insurence.svg\\" dialogtext=\\"Do you want to assign zone or
+ do you want to onboard depot\\" leftbuttonname=\\"Assign depot\\" rightbuttonname=\\"Onboard depot\\" dialogvisible=\\"false\\" dialogtextsize=\\"17\\" dialogtitlesize=\\"22\\"></dialog-status-stub>"
+`;
+
+exports[`InsuranceDetails Component > renders the SingleFileUpload Component 1`] = `
+"<section data-v-3c2eb23c=\\"\\" class=\\"edit_mang_wrap\\">
+  <div data-v-3c2eb23c=\\"\\" class=\\"mang_inner comp_inner\\">
+    <div data-v-3c2eb23c=\\"\\" class=\\"mang_title\\">
+      <h3 data-v-3c2eb23c=\\"\\" class=\\"mb-3\\">Insurance details</h3>
+      <p data-v-3c2eb23c=\\"\\">Enter your business insurance details</p>
+    </div>
+    <div data-v-3c2eb23c=\\"\\" class=\\"w854\\">
+      <el-form data-v-3c2eb23c=\\"\\" label-position=\\"top\\" label-width=\\"100px\\" model=\\"[object Object]\\" rules=\\"[object Object]\\">
+        <el-row data-v-3c2eb23c=\\"\\" gutter=\\"50\\">
+          <!--Name of Insurance Company  -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Name of Insurance Company\\" prop=\\"name_of_insurence_company\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Name of insurance company\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- Policy Number -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Policy Number\\" prop=\\"policy_number\\">
+                <el-input data-v-3c2eb23c=\\"\\" modelvalue=\\"\\" placeholder=\\"Policy number\\"></el-input>
+              </el-form-item>
+            </div>
+          </el-col><!-- insurance card -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"comp_form_box phase3_upload\\">
+              <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+                <p data-v-3c2eb23c=\\"\\" class=\\"frm_label\\">Insurance Card</p>
+                <single-file-upload-stub data-v-3c2eb23c=\\"\\" iconclass=\\"iconClass\\" progress=\\"true\\" id=\\"insurance_card\\" value=\\"[object Object]\\"></single-file-upload-stub>
+              </div>
+              <!--v-if-->
+            </div>
+          </el-col><!-- Expiry of insurance -->
+          <el-col data-v-3c2eb23c=\\"\\" xs=\\"24\\" sm=\\"24\\" md=\\"12\\" lg=\\"12\\" xl=\\"12\\">
+            <div data-v-3c2eb23c=\\"\\" class=\\"fieldrow\\">
+              <!-- <el-form-item label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                  <el-input type=\\"date\\" v-model=\\"formData.expiry_of_insurence\\" placeholder=\\"Expiry of insurance\\" />
+                </el-form-item> -->
+              <el-form-item data-v-3c2eb23c=\\"\\" label=\\"Expiry of Insurance\\" prop=\\"expiry_of_insurence\\">
+                <el-date-picker data-v-3c2eb23c=\\"\\" value-format=\\"YYYY-MM-DD\\" modelvalue=\\"\\" type=\\"date\\" placeholder=\\"Expiry of insurance\\" size=\\"default\\"></el-date-picker>
+              </el-form-item>
+            </div>
+          </el-col>
+        </el-row>
+      </el-form>
+      <div data-v-3c2eb23c=\\"\\" class=\\"comp_footer\\">
+        <nuxt-link data-v-3c2eb23c=\\"\\" class=\\"btn btn-default\\" to=\\"/distributor\\">Cancel</nuxt-link>
+        <el-button data-v-3c2eb23c=\\"\\" class=\\"btn btn-primary\\">Save</el-button>
+      </div>
+    </div>
+  </div>
+</section>
+<dialog-status-stub data-v-3c2eb23c=\\"\\" dialogtitle=\\"Have a depot?\\" dialogimage=\\"/assets/svg/insurence.svg\\" dialogtext=\\"Do you want to assign zone or
+ do you want to onboard depot\\" leftbuttonname=\\"Assign depot\\" rightbuttonname=\\"Onboard depot\\" dialogvisible=\\"false\\" dialogtextsize=\\"17\\" dialogtitlesize=\\"22\\"></dialog-status-stub>"
+`;

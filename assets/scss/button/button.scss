@@ -1,0 +1,47 @@
+.el-button {
+  &.primary-add-btn {
+    background: linear-gradient(124deg, #5E72E4 -1.8%, #825EE4 105.23%);
+    box-shadow: 0px 2px 6px 0px #00000040;
+  }
+  &.big {
+    font-size: 28px !important;
+    font-weight: bold;
+  }
+  &.medium {
+    font-size: 20px !important;
+    font-weight: bold;
+  }
+  &.big {
+    font-size: 28px !important;
+    font-weight: bold;
+  }
+  &.small {
+    padding: 7px 7px !important;
+  }
+  &.full-width {
+    width: 100% !important;
+  }
+  // &.right {
+  //   float: right;
+  // }
+}
+
+
+.el-button--danger {
+  background:  #f78989 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  &:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+
+}
+
+.el-button--info {
+  background: #004599 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
